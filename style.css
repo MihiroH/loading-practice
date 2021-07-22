@@ -1,0 +1,26 @@
+.loader {
+  height: 100%;
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.loader .loader-inner {
+  left: 50%;
+  top: 50%;
+}
+.loader .loader-inner > div {
+  background: #026A34;
+}
+
+/* ローディングには不要 */
+#btn {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  width: 200px;
+  z-index: 100001;
+}
